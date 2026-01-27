@@ -1,6 +1,25 @@
-@media (max-width: 1800px) {}
+@media (max-width: 1200px) {
+  .solutions__block {
+    gap: 30px;
+  }
 
-@media (max-width: 1100px) {
+  .card {
+    flex: 0 0 calc((100% - 30px) / 2);
+  }
+}
+
+@media (max-width: 992px) {
+
+  .solutions {
+    padding: 70px 61px;
+  }
+
+  .solutions__img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 365px;
+  }
+
   .solutions__block {
     display: flex;
     flex-direction: column;
@@ -17,11 +36,133 @@
     gap: 40px;
   }
 
-  .solutions {
-    padding: 70px 86px;
+  .solutions__img {
+    max-width: 455px;
+  }
+
+  .solutions__title {
+    font-size: 54px;
+  }
+
+  .solutions__text {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .hero__title {
+    font-size: 46px
+  }
+
+  .hero {
+    padding: 80px 0 100px 0;
+  }
+
+  .features,
+  .slider {
+    padding: 60px 0;
+  }
+
+  .features__item,
+  .card {
+    padding: 28px;
+  }
+
+  .features__grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .features__categ,
+  .card__categ {
+    font-size: 12px;
+    top: -29px;
+    left: -29px;
+  }
+
+  .features__author,
+  .card__author {
+    font-size: 12px;
+  }
+
+  .features__title,
+  .card__title {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .features__text,
+  .card__text {
+    font-size: 14px;
+    margin-bottom: 26px;
+  }
+
+  .features__tag,
+  .card__tag {
+    margin-bottom: 18px;
+  }
+
+  .solutions__img {
+    max-width: 100%;
+    width: 100%;
+    height: 275px;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  .solutions__title {
+    font-size: 46px;
+  }
+
+  .solutions__text {
+    font-size: 18px;
+  }
+
+  .card__categ,
+  .features__categ {
+    top: -17px;
+    left: -17px;
+    font-size: 12px;
+  }
+
+  .card,
+  .features__item {
+    padding: 16px;
+  }
+
+  .solutions__img {
+    max-width: 100%;
+    width: 100%;
   }
 }
 
-@media (max-width: 1800px) {}
+@media (max-width: 640px) {}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .card {
+    flex: 0 0 100%;
+  }
+
+  .slider__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .solutions__btn-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .solutions {
+    padding: 50px 0;
+  }
+}
 
 @media (max-width: 1800px) {}
