@@ -1,3 +1,8 @@
 # octo
 
-https://www.figma.com/design/dYdyk94kiN1SHIAHxISYs5/Тестовое-задание-Octo?node-id=0-1&p=f&t=kvdrwjZiddwCeb36-0
+Задание: Нужно сверстать страничку по макету из Figma, сделать адаптив.
+- Будет плюсом, если ты сможешь реализовать слайдер с карточками (четвертая секция).
+Для выполнения задания используй свой стек, к которому ты привык.
+В результате нужно скинуть билд проекта и его исходники на почту.
+Ссылка на макет:
+https://www.figma.com/file/dYdyk94kiN1SHIAHxISYs5/Тестовое-задание-Octo?type=design&node-id=0%3A1&mode=design&t=pROKjktttPlYx0ds-1
