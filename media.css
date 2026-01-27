@@ -140,8 +140,18 @@
 @media (max-width: 640px) {}
 
 @media (max-width: 576px) {
+
+  .features,
+  .slider {
+    padding: 50px 0;
+  }
+
   .container {
     padding: 0 15px;
+  }
+
+  .hero {
+    padding: 60px 0 80px 0;
   }
 
   .card {
