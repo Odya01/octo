@@ -1,5 +1,6 @@
 @font-face {
   font-family: "Noto Sans";
+  font-display: swap;
   src: url(fonts/NotoSans-Regular.ttf);
 }
 
@@ -87,14 +88,6 @@ a {
 .features__item:hover {
   border-radius: 0 10px 10px 10px;
   border-color: var(--blue);
-}
-
-.dark-blue-bg {
-  background-color: var(--dark-blue);
-}
-
-.dark-blue-text {
-  color: var(--dark-blue);
 }
 
 .features__stub {
@@ -346,10 +339,6 @@ a {
   transform: translate(-50%, -50%) rotate(135deg);
 }
 
-.slider__arrow:hover {
-  border-color: var(--blue);
-}
-
 .slider__arrow:hover::before {
   border-right-color: var(--dark-blue);
   border-bottom-color: var(--dark-blue);
@@ -358,10 +347,6 @@ a {
 .slider__arrow:disabled {
   opacity: 0.35;
   cursor: default;
-}
-
-.slider__arrow:disabled:hover {
-  border-color: var(--gray);
 }
 
 .slider__arrow:disabled:hover::before {
